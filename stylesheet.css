@@ -1,0 +1,105 @@
+body{
+  background-image:url(https://rr.img.naver.jp/mig?src=http%3A%2F%2Ffc05.deviantart.net%2Ffs17%2Ff%2F2007%2F192%2Fd%2F9%2FNight_View_by_phoenixm4.jpg&twidth=1200&theight=1200&qlt=80&res_format=jpg&op=r);
+ color:white;
+ background-size:cover;                 /* 画像のサイズを指定    */
+ width:100%;                              /* 横幅のサイズを指定    */
+ height:700px;
+ display:block;
+ position:fixed;
+ 
+}
+
+header{
+height:80px;
+width:100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position:fixed;
+  top: 0;
+  left:0;
+  z-index:10;
+}
+.index p{
+  float:left;
+  margin-top:20px;
+  margin-left:50px;
+  font-size:30px;
+}
+.list{
+  float:right;
+  margin-right:80px;
+  
+}
+.list li{
+  float:left;
+ padding:10px 30px; 
+}
+li{
+  list-style:none;
+}
+.top-wrapper{
+  margin-top:100px;
+  background:rgba(220,215,214,0.8);
+  opacity:0.8;
+  color:black;
+  padding-bottom:10px;
+  padding-top:1px;
+  margin-left:200px;
+  margin-right:200px;
+  font-weight:bold;
+}
+
+
+.top-wrapper p{
+  text-align:center;
+font-size:33px;
+
+}
+.content{
+  margin-left:52px;
+  font-size:20px;
+}
+.content li {
+ 
+}
+input{
+  width: 30%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0px 12px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555;
+  margin-bottom:15px;
+}
+input[type="submit"]{
+  margin-top: 10px;
+  margin-bottom:5px;
+    width: 25%;
+    border: 1px solid #1CCA20;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    font-size: 16px;
+    line-height: 1.428571429;
+    color: white;
+    background-color: #1CCA20;
+    cursor: pointer;
+    font-weight:bold;
+    letter-spacing: 0.6em;
+}
+textarea {
+  width: 90%;
+  height: 60px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 6px 12px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  font-size: 16px;
+  font-weight:bold;
+  line-height: 1.428571429;
+  color: #555;
+}
+
